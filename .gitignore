@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+cache/
+models/*.joblib
+reports/*.png
+reports/*.json
+*.npz
+
+# Giữ cấu trúc thư mục, bỏ qua ảnh dataset lớn (tùy chọn bỏ dòng dưới nếu muốn commit ảnh)
+data/raw/**/*.jpg
+data/raw/**/*.jpeg
+data/raw/**/*.png
